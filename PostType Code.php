@@ -48,7 +48,7 @@ function tf_custom_project_post_type() {
         'hierarchical' => false,
         'menu_position' => null,
         'menu_icon' => 'dashicons-portfolio', // You can change this to another Dashicon if needed
-        'supports' => array('title', 'editor', 'thumbnail', 'excerpt', 'comments', 'revisions', 'custom-fields'),
+        'supports' => array('title', 'editor', 'thumbnail'),   //you can add those also in your supports( excerpt ,comments, revisions,custom-fields)
         'taxonomies' => array('category', 'post_tag'), // You can define custom taxonomies if needed
         'show_in_rest' => true, // Enables Gutenberg editor support
         'rest_base' => strtolower($singular), // REST API base route
