@@ -1,3 +1,5 @@
+<?php
+
 // Register Developer Projects Post Type
 function tf_custom_project_post_type() {
     // Define singular and plural names
@@ -58,3 +60,6 @@ function tf_custom_project_post_type() {
 
 // Hook into the 'init' action to register the custom post type
 add_action('init', 'tf_custom_project_post_type');
+
+
+?>
